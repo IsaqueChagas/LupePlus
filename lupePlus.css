@@ -44,7 +44,7 @@ div.leftCol,
 div.rightCol {
     display: block;
     float: right;
-    margin: 30px;
+    margin: 10px 15px;
     border-radius: 7px;
     background-color: #fff;
     box-shadow: 0 0 3px 0;
@@ -97,9 +97,9 @@ div.infos h3 {
     line-height: 0;
 }
 
-div.orderStatus ul,
-div.orderItens ul {
+div.orderStatus ul {
     list-style: none;
+    line-height: 1.3;
     box-shadow: 0 0 3px 0;
     padding: 14px;
     margin: auto;
@@ -107,6 +107,34 @@ div.orderItens ul {
     border-radius: 7px;
     margin: 3px;
     height: 190px;
+}
+
+div.orderItens ul {
+    list-style: square;
+    line-height: 1.3;
+    box-shadow: 0 0 3px 0;
+    padding: 14px;
+    padding-left: 25px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 3px;
+    height: 190px;
+}
+
+div.orderStatus ul li {
+    text-align: center;
+    font-size: 13px;
+    box-shadow: 0 0 5px 0;
+    margin: 7px;
+    border-radius: 5px;
+    line-height: 1.2;
+}
+
+#created,
+#ps,
+#comprando {
+    background-color: blue;
+    color: #fff;
 }
 
 div.siftParameters ul {
@@ -122,6 +150,10 @@ div.siftParameters ul {
 
 div.orderValue h1 {
     font-size: 20px;
+}
+
+#orange {
+    color: orange;
 }
 
 
