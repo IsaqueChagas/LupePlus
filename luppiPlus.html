@@ -2,18 +2,16 @@
 <html>
 <meta charset="UTF-8">
 <head>
-    <link rel="stylesheet" href="lupePlus.css">
+    
     <title>LUPE +</title>
-
-
-    <script>
-
-
-    </script>
+    <link rel="script" href="LupePlus.js">
     <link rel="stylesheet" type="text/css" href="lupePlus.css">
+
+   
 </head>
 
 <body>
+        
     <div class="row" id="1">
         <div class="order col-6">
         
@@ -22,13 +20,13 @@
             </div>
             <div class="infos col-2">
             <div class='adress'>
-                <h3>Endereço:</h3>
-                <p>rua tralala</p>            
+                <h3 >Endereço:</h3>
+                <p id="adress1">rua tralala</p>            
             </div>
 
             <div class="nome">
                 <h3>Nome:</h3>
-                <p>Janaina torres</p>
+                <p id="nomeCliente">Janaina tores</p>
             </div>
             </div>
 
@@ -117,7 +115,7 @@
     <div class="prompt">    
         <div class="botoes">
             <button>confirmação de dados</button>
-            <button>Check</button>
+            <button id="Chkbtn">Check</button>
             <button>ver endereço</button>
             <button>Pintar</button>
         </div>
@@ -126,6 +124,23 @@
             <h3>Quadrado</h3>
         </div>
     </div>
+    
+
+    <script>
+                    
+            
+            
+             var trocarNome = document.getElementById("nomeCliente");
+             trocarNome.innerHTML= "ZAZA";
+
+             var adress1 = document.getElementById("adress1");
+             adress1.innerHTML= "Rua borges";
+             document.getElementById("Chkbtn").addEventListener("click", function(){
+             
+             }
+
+        
+        </script>
 </body>
 
 </html>
